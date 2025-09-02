@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Voting Eligibility Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🗳️ Voting Eligibility Checker</h1>
+    
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" placeholder="Enter your name" />
+
+    <label for="age">Your Age:</label>
+    <input type="number" id="age" placeholder="Enter your age" />
+
+    <button onclick="checkEligibility()">Check Eligibility</button>
+
+    <p id="output">Enter your details above and click the button.</p>
+  <p id="output">Reset to enter new details.</p>
+<p id="history"></p>
+<button onclick="resetForm()">Reset</button>
+
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
